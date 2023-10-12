@@ -1,5 +1,6 @@
 # file = open("C:\\Users\\jesus\\Desktop\\new_file.txt")
-file = open(r"C:\Users\jesus\Desktop\new_file.txt")
+# file = open(r"C:\Users\jesus\Desktop\new_file.txt")
+file = open(r"..\..\..\..\Users\jesus\Desktop\new_file.txt")
 contents = file.read()
 print(contents)
 file.close()
